@@ -8,7 +8,7 @@ class Config(object):
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002847069985"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "gplinks.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "6039024d791b89459bb4667a367c4a2d5a511739")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "eren645"))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6725874739"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://jhonwickp1:yRD1YhgiGPiziyyH@cluster0.towfdff.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001648037641")
   LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002031127227"))

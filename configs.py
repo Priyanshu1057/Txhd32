@@ -5,7 +5,7 @@ class Config(object):
   API_HASH = os.environ.get("API_HASH", "ff0572e13ff2f63a50f6dc707e0c4c9f")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "FileStoreFlixhdbot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002847069985"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "gplinks.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "6039024d791b89459bb4667a367c4a2d5a511739")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "eren645"))
